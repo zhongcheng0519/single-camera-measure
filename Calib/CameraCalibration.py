@@ -8,7 +8,7 @@ import toml
 class CameraCalibration(object):
     def __init__(self):
         self.verbose = False
-        self.param_path = './data/CalibrationTest.toml'
+        self.param_path = './data/Calibration.toml'
         self.new_mtx = None
         self.new_mapx = None
         self.new_mapy = None
