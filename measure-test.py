@@ -3,8 +3,8 @@ from Calib.CameraCalibration import CameraCalibration
 import cv2
 
 
-# TEST_IMG = 'train/20220126131357.jpg'
-TEST_IMG = 'train2/IMG_20220617_162053.jpg'
+TEST_IMG = 'train/20220126131357.jpg'
+# TEST_IMG = 'train2/IMG_20220617_162053.jpg'
 
 
 def main():

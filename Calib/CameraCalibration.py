@@ -90,11 +90,14 @@ class CameraCalibration(object):
         return imgpoints, objpoints
 
     def undistort(self, img, mtx=None):
+        dir_path = 'undistort-img'
+        if not os.path.exists(dir_path):
+            os.makedirs(dir_path)
         if isinstance(img, str):
-            output_name = f'undistort-img/{os.path.basename(img)}'
+            output_name = f'{dir_path}/{os.path.basename(img)}'
             img = cv2.imread(img, cv2.IMREAD_GRAYSCALE)
         else:
-            output_name = 'undistort-img/undistort.jpg'
+            output_name = f'{dir_path}/undistort.jpg'
         mtx = self.params['mtx']
         dist = self.params['dist']
         h, w = img.shape[:2]
