@@ -1,5 +1,7 @@
 # Single Camera Measure
 
+*Read this in other languages: [中文](README_zh.md).*
+
 ## Introduction
 
 This project is used for length measurement by a single camera, based on `OpenCV`.
