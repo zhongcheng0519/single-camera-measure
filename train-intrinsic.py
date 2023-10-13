@@ -5,7 +5,7 @@ from Calib.CameraCalibration import CameraCalibration
 
 def main():
     # Extracting path of individual image stored in a given directory
-    img_names = glob.glob('./train/*.jpg')
+    img_names = glob.glob('./train/*.png')
     cam_calib = CameraCalibration()
     cam_calib.load_param()
     cam_calib.verbose = True

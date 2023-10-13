@@ -6,7 +6,7 @@ import cv2
 from Calib.CameraCalibration import CameraCalibration
 
 
-TEST_IMG = 'test/IMG_20220617_165213.jpg'
+TEST_IMG = 'test/02.png'
 
 
 def main():
