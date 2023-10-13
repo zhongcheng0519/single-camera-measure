@@ -1,6 +1,6 @@
 # Single Camera Measurement
 
-*[中文](README.zh-CN.md)*
+*[中文](README_zh.md)*
 
 ## Introduction
 
